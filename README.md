@@ -25,19 +25,6 @@ This project implements **Fed-FTTP**, a federated learning framework for cross-s
 pip install -r requirements.txt
 ```
 
-| Package       | Version | Purpose                    |
-|---------------|---------|----------------------------|
-| torch         | ≥ 1.9.0 | Deep learning framework    |
-| torchvision   | ≥ 0.10  | Vision models & transforms |
-| numpy         | ≥ 1.19  | Numerical computation      |
-| scipy         | ≥ 1.6   | Scientific computing       |
-| scikit-learn  | ≥ 0.24  | Metrics (AUC, etc.)        |
-| pandas        | ≥ 1.2   | Data loading & processing  |
-| pillow        | ≥ 8.0   | Image I/O                  |
-| tqdm          | ≥ 4.50  | Progress bars              |
-| matplotlib    | ≥ 3.3   | Visualization              |
-| pyyaml        | ≥ 5.4   | Configuration file parsing |
-
 ## 📦 Data Preparation
 
 1. Download the [OIA-ODIR dataset](https://odir2019.grand-challenge.org/dataset/)
