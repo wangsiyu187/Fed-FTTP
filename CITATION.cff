@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wang
+    given-names: Siyu
+  - family-names: Hu
+    given-names: Yanhan
+  - family-names: Tang
+    given-names: Zhi-Ri
+  - family-names: Zhang
+    given-names: Tian-Tian
+  - family-names: Chen
+    given-names: Yanhua
+  - family-names: Wang
+    given-names: Di
+  - family-names: Wang
+    given-names: Xu
+title: "Fed-OCTTP: Federated Ocular-Calibrated Test-Time Personalization for Cross-Site Multi-Label Ocular Disease Recognition"
+repository-code: "https://github.com/username/Fed-OCTTP"
+license: MIT
