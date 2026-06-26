@@ -2,12 +2,12 @@
 
 ## 📝 Project Overview
 
-This project implements **Fed-FTTP**, a federated learning framework for cross-site multi-label ocular disease recognition. It addresses three core challenges in medical federated learning: class imbalance via **Robust Asymmetric Loss (RAL)**, label shift via **Bias-Corrected Vector Scaling (BVS)**, and domain shift via **Test-Time Personalization (ATP)**. Built on PyTorch, it supports multiple FL algorithms, TTA methods, calibration techniques, and cross-dataset evaluation.
+This project implements **Fed-FTTP**, a federated learning framework for cross-site multi-label ocular disease recognition. It addresses three core challenges in medical federated learning: class imbalance via **Robust Asymmetric Loss (RAL)**, label shift via **Bias-Corrected Vector Scaling (BVS)**, and domain shift via **Test-Time Personalization (TTP)**. Built on PyTorch, it supports multiple FL algorithms, TTA methods, calibration techniques, and cross-dataset evaluation.
 
 ## 🚀 Key Features
 
 - **Federated Learning Algorithms**: FedAvg, FedProx, FedBN, SCAFFOLD, PerFedAvg
-- **Test-Time Adaptation (TTA)**: TENT, T3A, SHOT, MEMO, BatchNorm, ATP
+- **Test-Time Adaptation (TTA)**: TENT, T3A, SHOT, MEMO, BatchNorm, ATP (code name for TTP)
 - **Label Shift Estimation**: EM (Expectation-Maximization), BBSE (Black-Box Shift Estimation)
 - **Calibration Methods**: BVS (Bias-Corrected Vector Scaling), BCTS, VS, TS
 - **Loss Functions**: RAL (Robust Asymmetric Loss) with polynomial focusing and Hill-based truncation
@@ -65,7 +65,7 @@ bash experiments/odir/hybrid/data_prepare.sh
 bash experiments/odir/hybrid/pretrain_fedavg_resnet18.sh
 ```
 
-### 3. Run ATP Training (Test-Time Personalization)
+### 3. Run TTP Training (Test-Time Personalization)
 
 ```bash
 bash experiments/odir/hybrid/atp_train_resnet18.sh
