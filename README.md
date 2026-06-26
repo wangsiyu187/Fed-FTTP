@@ -4,6 +4,11 @@
 
 This project implements **Fed-FTTP**, a federated learning framework for cross-site multi-label ocular disease recognition. It addresses three core challenges in medical federated learning: class imbalance via **Robust Asymmetric Loss (RAL)**, label shift via **Bias-Corrected Vector Scaling (BVS)**, and domain shift via **Test-Time Personalization (TTP)**. Built on PyTorch, it supports multiple FL algorithms, TTA methods, calibration techniques, and cross-dataset evaluation.
 
+### Framework and Results
+
+![Framework](fig/framework.png)
+![Comparison](fig/fig1-3.png)
+
 ## 🚀 Key Features
 
 - **Federated Learning Algorithms**: FedAvg, FedProx, FedBN, SCAFFOLD, PerFedAvg
